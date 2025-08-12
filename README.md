@@ -169,7 +169,7 @@ Por padrão o cron já vem instalado, mas caso não esteja, digite o seguinte co
 
     ``` WEBHOOK_URL=SUA_URL ```
 
-    **Substitua _SUA_URL_ pela URL do Webhook criando anteriormente**
+    **Substitua _SUA_URL_ pela URL do Webhook criado anteriormente**
 
     ``` */1 * * * * root /bin/bash /service_monitoring.sh ```
 
