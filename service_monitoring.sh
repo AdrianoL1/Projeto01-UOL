@@ -12,5 +12,6 @@ if systemctl is-active "$SERVICE"; then
     echo "[$DATE]: O serviço $SERVICE está ativo!" >> "$LOG_FILE"
 else
     echo "[$DATE]: O serviço $SERVICE está desativado." >> "$LOG_FILE"
-    ./discord_alert.sh
+    /bin/bash /discord_alert.sh
+    systemctl restart nginx
 fi
